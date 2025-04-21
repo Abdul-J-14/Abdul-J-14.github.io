@@ -3,99 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdul Aziz Ja'far | Portfolio</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-    body {
-      background-color: #f4f4f4;
-      color: #333;
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.3rem;
-    }
-    header h2 {
-      font-size: 1.5rem;
-      color: #555;
-      margin-bottom: 1rem;
-    }
-    header p {
-      font-size: 1rem;
-      color: #666;
-      margin-bottom: 2rem;
-    }
-    section h3 {
-      font-size: 1.3rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.5rem;
-    }
-    ul {
-      list-style: none;
-    }
-    li {
-      margin-bottom: 1.5rem;
-    }
-    a {
-      color: #0077cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      margin-top: 3rem;
-      text-align: center;
-      color: #888;
-      font-size: 0.9rem;
-    }
-  </style>
+  <title>Abdul Aziz Ja'far | Mechanical Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main>
-    <header>
+  <header class="hero">
+    <img src="images/banner.jpg" alt="Workshop Banner">
+    <div class="hero-text">
       <h1>Abdul Aziz Ja'far</h1>
-      <h2>[Judul Profesi Kamu]</h2>
-      <p>[Deskripsi singkat tentang dirimu akan ditulis di sini]</p>
-    </header>
+      <h2>Mechanical Engineer</h2>
+      <p>Saya tertarik pada desain teknik, alat berat, dan simulasi mekanik. Portofolio ini menampilkan beberapa karya dan proyek saya.</p>
+    </div>
+  </header>
 
-    <section>
-      <h3>Projects</h3>
-      <ul>
-        <li>
-          <strong>Project Title 1</strong><br />
-          <span>Deskripsi singkat project 1.</span><br />
-          <a href="#">Lihat Project</a>
-        </li>
-        <li>
-          <strong>Project Title 2</strong><br />
-          <span>Deskripsi singkat project 2.</span><br />
-          <a href="#">Lihat Project</a>
-        </li>
-      </ul>
+  <main>
+    <section class="projects">
+      <h3>Proyek Saya</h3>
+      <div class="project-card">
+        <h4>Desain Bucket Loader</h4>
+        <p>Desain alat untuk memuat pasir dan tanah menggunakan traktor Yanmar EF393T.</p>
+        <a href="#">Lihat Proyek</a>
+      </div>
+      <div class="project-card">
+        <h4>Simulasi Struktur ANSYS</h4>
+        <p>Analisis kekuatan struktur rangka menggunakan ANSYS Workbench.</p>
+        <a href="#">Lihat Proyek</a>
+      </div>
     </section>
 
-    <section>
-      <h3>Contact</h3>
-      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <section class="contact">
+      <h3>Kontak</h3>
+      <p>Email: <a href="mailto:aziz@example.com">aziz@example.com</a></p>
       <p>
         <a href="#">GitHub</a> |
         <a href="#">LinkedIn</a>
       </p>
     </section>
-
-    <footer>
-      <p>&copy; 2025 Abdul Aziz Ja'far</p>
-    </footer>
   </main>
+
+  <footer>
+    <p>&copy; 2025 Abdul Aziz Ja'far</p>
+  </footer>
 </body>
 </html>
